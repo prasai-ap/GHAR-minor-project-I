@@ -1,0 +1,144 @@
+/* styles.css */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    display: flex;
+    height: 100vh;
+  }
+  
+  .container {
+    display: flex;
+    width: 100%;
+  }
+  
+  .sidebar {
+    width: 280px;
+    background-color: white;
+    padding: 16px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    border-right: 1px solid #ddd;
+  }
+  
+  .profile {
+    display: flex;
+    align-items: center;
+    padding-bottom: 16px;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .profile-info {
+    font-size: 14px;
+  }
+  
+  .profile-info .name {
+    font-weight: bold;
+    margin-bottom: 4px;
+  }
+  
+  .inbox {
+    padding-top: 16px;
+  }
+  
+  .inbox h2 {
+    font-size: 18px;
+    margin-bottom: 16px;
+  }
+  
+  .product-card {
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    padding: 16px;
+    margin-bottom: 16px;
+  }
+  
+  .product-info {
+    display: flex;
+    align-items: center;
+  }
+  
+  .product-image {
+    border-radius: 8px;
+    width: 64px;
+    height: 64px;
+    margin-right: 16px;
+  }
+  
+  .product-name {
+    font-weight: bold;
+  }
+  
+  .product-details {
+    color: #777;
+  }
+  
+  .actions {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 16px;
+  }
+  
+  .button {
+    padding: 8px 16px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .button.outline {
+    background-color: white;
+  }
+  
+  .button.solid {
+    background-color: blue;
+    color: white;
+    margin-left: 8px;
+  }
+  
+  .main {
+    flex: 1;
+    padding: 16px;
+    background-color: white;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .dashboard-header {
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 16px;
+    margin-bottom: 16px;
+  }
+  
+  .dashboard-content {
+    display: grid;
+    gap: 16px;
+  }
+  
+  .stats-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 16px;
+  }
+  
+  .stat-card {
+    background-color: #f9f9f9;
+    padding: 16px;
+    border-radius: 8px;
+    text-align: center;
+  }
+  
+  .stat-card h3 {
+    font-size: 16px;
+    margin-bottom: 8px;
+  }
+  
+  .stat-value {
+    font-size: 24px;
+    font-weight: bold;
+  }
+  
+  .line-chart {
+    height: 400px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    padding: 16px;
+  }
+  

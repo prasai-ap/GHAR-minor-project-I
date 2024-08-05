@@ -1,0 +1,151 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+.signin-body{
+  width: 100%;
+  height: 100%;
+  background-color: #ffffff;
+}
+.ghar-logo{
+  display: flex;
+  margin-top: 13px;
+  cursor: pointer;
+}
+.sigin{
+  width:100%;
+  position: absolute;
+}
+.sigin-container{
+  width: 50%;
+  height: 706px;
+  margin: 0px 110px;
+  position: relative;
+  
+}
+.container{
+  width: 1000px;
+  height: 60px;
+  margin: 0px 12px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.head{
+  width: 560px;
+  height: 36px;
+  margin: 16px 0px;
+  color: #333333;
+  font-size: 30px;
+  font-weight: 300;
+}
+.log-container{
+  width: 289px;
+  height: 336px;
+  margin-right: 20px;
+  border-right: 1px solid #eaeaea;
+  padding: 10px 25px 5px 0;
+  margin-bottom: 24px; 
+  position: relative;
+  float: left;
+}
+.username-container span{
+  width: 290px;
+  height: 23px;
+  color: #333333;
+  display: block;
+  font-size: 16px;
+  margin: 5px 0px;
+}
+.username-input{
+  width: 276px;
+  height: 30px;
+  display: block;
+  padding: 4px 6px;
+  background-color: #ffffff;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+
+}
+.password-container span{
+  width: 290px;
+  height: 23px;
+  color: #333333;
+  display: block;
+  font-size: 16px;
+  margin: 5px 0px;
+}
+.sign-submit{
+  display: block;
+  width: 289px;
+  height: 40px;
+  padding: 7px 16px;
+  border-radius: 4px;
+  background-color: #007562;
+  color: #ffffff;
+  border-color: #007562;
+  font-size: 18px;
+  font-weight: 700;
+}
+.email-submit{
+  display: block;
+  width: 289px;
+  height: 40px;
+  padding: 7px 16px;
+  border-radius: 4px;
+  color: #007562;
+  background-color: #fff;
+  cursor: pointer;
+  border: 1px solid transparent;
+  border-color: #007562;
+  font-size: 16px;
+  font-weight: 700;
+}
+.passw-text{
+  width: 141px;
+  height: 17px;
+  color: #007562;
+  cursor: pointer;
+}
+.sigin-half{
+  width: 50%;
+  position: relative;
+  float: right;
+}
+.google-login-button{
+  width: 254px;
+  height: 40px;
+  background-color: #FFFFFF;
+  color: #333333;
+  display: block;
+  border: 1px solid #ccc;
+  font-size: 16px;
+  padding: 9px 16px;
+  cursor: pointer;
+  border-color: #cccccc;
+}
+.apple-login-button{
+  width: 254px;
+  height: 40px;
+  padding: 0px 20px;
+  background-color: #333333;
+  cursor: pointer;
+  display: block;
+  font-size: 16px;
+  color: #FFFFFF;
+}
+.half-text{
+  width: 259px;
+  height: 20px;
+  padding: 0px 0px 0px 2px;
+  margin: 15px 0px 0px;
+  color: #333333;
+}
+.half-text a {
+  text-decoration: none;
+  
+}
+.half-text span{
+  color: #007562;
+}

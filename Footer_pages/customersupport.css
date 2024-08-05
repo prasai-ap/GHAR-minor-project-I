@@ -1,0 +1,153 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  width: 100%;
+}
+
+.section-primary {
+  background-color: #007562;
+  color: #ffffff;
+  padding: 3rem 0;
+}
+
+.content-center {
+  text-align: center;
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 0 1rem;
+}
+
+.title {
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+.subtitle {
+  font-size: 1.25rem;
+}
+
+.section {
+  padding: 3rem 0;
+}
+
+.grid {
+  display: grid;
+  gap: 2rem;
+  padding: 0 1rem;
+}
+
+.info {
+  margin-top: 1rem;
+}
+
+.subheading {
+  font-size: 1.25rem;
+  font-weight: medium;
+}
+
+.collapsible {
+  margin-top: 1rem;
+}
+
+.collapsible-item {
+  border-bottom: 1px solid #ddd;
+  padding: 1rem 0;
+}
+
+.collapsible-trigger {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  background: none;
+  border: none;
+  cursor: pointer;
+  padding: 0;
+}
+
+.icon-chevron {
+  width: 1.5rem;
+  height: 1.5rem;
+}
+
+.collapsible-content {
+  display: none;
+  padding: 0.5rem 0;
+}
+
+.text-muted {
+  color: #6c757d;
+}
+
+.section-muted {
+  background-color: #f8f9fa;
+  padding: 3rem 0;
+}
+
+.form-container {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 0 1rem;
+}
+
+.form {
+  margin-top: 1rem;
+}
+
+.label {
+  display: block;
+  margin-bottom: 0.5rem;
+}
+
+.input,
+.textarea {
+  width: 100%;
+  padding: 0.5rem;
+  border: 1px solid #ccc;
+  border-radius: 0.25rem;
+  margin-bottom: 1rem;
+}
+
+.textarea {
+  min-height: 120px;
+}
+
+.button {
+  width: 100%;
+  padding: 0.75rem;
+  background-color: #007562;
+  color: #ffffff;
+  border: none;
+  border-radius: 0.25rem;
+  cursor: pointer;
+}
+
+.resources {
+  margin-top: 1rem;
+}
+
+.resource-link {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #f8f9fa;
+  border-radius: 0.25rem;
+  padding: 1rem;
+  text-decoration: none;
+  color: inherit;
+  transition: background-color 0.3s;
+}
+
+.resource-link:hover {
+  background-color: #e2e6ea;
+}
+
+.icon-arrow {
+  width: 1.5rem;
+  height: 1.5rem;
+}
