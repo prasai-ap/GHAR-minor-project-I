@@ -1,0 +1,347 @@
+body {
+
+    margin: 0;
+    padding: 0;
+  
+  }
+  
+  
+  a{
+    text-decoration: none;
+    color: #333333;
+  }
+  /**     NAVBAR    **/
+  .nav-header {
+    position: sticky;
+    top: 0;
+    background-color: #f5f5f5;
+  }
+  
+  .nav-bar {
+    background-color: #f5f5f5;
+    height: 76px;
+    display: flex;
+    justify-items: center;
+    align-items: center;
+    justify-content: space-evenly;
+  }
+  
+  .navbar-menu {
+    display: flex;
+    list-style: none;
+  }
+  
+  .navbar-menu li {
+    margin: 0 1em;
+    text-decoration: none;
+  }
+  .get-ideas:hover,
+  .find-pro:hover,
+  .shop-product:hover,
+  .signin-icon:hover,
+  .sale-icon:hover {
+    color: #007562;
+  }
+  .cart-move:hover,
+  .signin-icon:hover,
+  .joinpro-icon:hover{
+    color: #007562;
+  }
+  
+  .navbar-menu a {
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #333333;
+  }
+  .nav-content span {
+    display: inline;
+    justify-content: space-evenly;
+    margin: 0 10px;
+  }
+  
+  .nav-search {
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #007562;
+    width: 400px;
+    height: 40px;
+    border-radius: 4px;
+  }
+  
+  .search-select {
+    background-color: #007562;
+    width: 50px;
+    text-align: center;
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+    border: none;
+  }
+  
+  .nav-search:hover {
+    border: 2.5px solid #007562;
+  }
+  
+  .search-input {
+    width: 100%;
+    font-size: 20px;
+    border: none;
+    padding: 5px;
+    color: #333333;
+    background-color: #ffffff;
+  }
+  
+  .search-icon {
+    width: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.2rem;
+    background-color: #007562;
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px;
+    color: #ffffff;
+    cursor: pointer;
+  }
+  
+  .nav-second {
+    font-weight: 700;
+    font-size: 0.8rem;
+    cursor: pointer;
+    font-family: "proxima-nova", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    color: #222;
+    border: 1px solid #222;
+    border-radius: 4px;
+    padding: 5px;
+  }
+  
+  .nav-forth {
+    font-weight: 700;
+    font-size: 0.8rem;
+    display: flex;
+    font-family: "proxima-nova", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  }
+  /**                    END NAV              **/
+  h2, p, div{
+    font-family: Arial, sans-serif;
+  }
+  .cart-empty {
+    text-align: center;
+    padding: 50px 20px;
+    background-color: #fff;
+    margin: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+  }
+  
+  .cart-empty h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  .cart-empty p {
+    margin-bottom: 20px;
+  }
+  
+  .cart-empty a {
+    color: #007562;
+    text-decoration: none;
+  }
+  
+  .cart-empty a:hover {
+    text-decoration: underline;
+  }
+  
+  .continue-btn {
+    width: 245px;
+    height: 48px;
+    color: #fff;
+    background-color:  #007562;
+    border: 1px solid transparent;
+    padding: 12px 20px;
+    margin: 0 10px;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .continue-btn:hover {
+    background-color: rgb(5, 87, 73);
+  }
+  .sign-btn{
+    width: 245px;
+    height: 48px;
+    background-color: #fff;
+    color:  #007562;
+    border: 1px solid #007562;
+    padding: 12px 20px;
+    margin: 0 10px;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  .sign-btn:hover{
+    background-color: #007562;
+    color: #fff;
+  }
+  .return-policy {
+    text-align: center;
+    margin: 20px;
+  }
+  
+  .return-policy a {
+    color: #007562;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  .return-policy a:hover {
+    text-decoration: underline;
+  }
+  
+  .trending {
+    background-color: #fff;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+  }
+  
+  .trending h3 {
+    margin-bottom: 20px;
+  }
+  
+  .product-slider {
+    position: relative;
+    display: flex;
+    align-items: center;
+  }
+  
+  .products {
+    display: flex;
+    overflow-x: scroll;
+    scroll-behavior: smooth;
+  }
+  
+  .product {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    margin: 0 10px;
+    width: 200px;
+    flex: 0 0 auto;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+  }
+  
+  .product img {
+    width: 100%;
+    border-bottom: 1px solid #ddd;
+    border-radius: 8px 8px 0 0;
+  }
+  
+  .product-info {
+    padding: 10px;
+    text-align: center;
+  }
+  
+  .label {
+    display: block;
+    background-color: #007562;
+    color: white;
+    border-radius: 4px;
+    padding: 5px;
+    margin-bottom: 5px;
+    font-size: 12px;
+    font-weight: bold;
+  }
+  
+  .label.curated {
+    background-color: #007562;
+  }
+  
+  .rating {
+    margin-top: 10px;
+    color: #ff9800;
+  }
+  
+  button.prev, button.next {
+    background-color: transparent;
+    border: none;
+    font-size: 24px;
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    z-index: 1;
+  }
+  
+  button.prev {
+    left: 0;
+  }
+  
+  button.next {
+    right: 0;
+  }
+  
+  /* Footer */
+  .footer {
+    width: 100%;
+    height: 440px;
+    margin-top: 50px;
+    background-color: #f0f0f0;
+    border-top: 1px solid#ccc;
+    color: #333333;
+    padding: 2em 0;
+    text-align: center;
+  }
+  
+  .footer-logo {
+    margin-bottom: 1em;
+  }
+  
+  .footer-links {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    gap: 1em;
+    margin-bottom: 1em;
+    text-align: left;
+  }
+  
+  .footer-links div {
+    margin-bottom: 1em;
+  }
+  
+  .footer-links h3 {
+    margin-bottom: 0.5em;
+    font-size: 1.2em;
+    padding-left: 60px;
+  }
+  .footer-links a:hover,
+  .ghar-ho:hover{
+    color: #007562;
+  }
+  
+  .footer-links a {
+    color: #333333;
+    text-decoration: none;
+    display: block;
+    margin-bottom: 0.5em;
+    padding-left: 60px;
+  }
+  
+  .footer-social {
+    display: flex;
+    justify-content: center;
+    gap: 1em;
+    margin-top: 1em;
+  }
+  
+  .footer-social a {
+    color: #333333;
+    font-size: 1.5em;
+  }
+  .link {
+    color: #007562;
+    text-decoration: none;
+  }
+  
+  .link:hover {
+    text-decoration: underline;
+  }
